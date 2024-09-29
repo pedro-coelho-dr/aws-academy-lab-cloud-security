@@ -46,9 +46,9 @@ Instructor: `Ioram Sette`
 ### Task 1.1: Create a bucket, apply a bucket policy, and test access
 
 
-![alt text](image.png)
+![alt text](img/image.png)
 
-![alt text](image-1.png)
+![alt text](img/image-1.png)
 
 ```json
 {
@@ -102,195 +102,195 @@ Instructor: `Ioram Sette`
 }
 ```
 
-![alt text](image-2.png)  
+![alt text](img/image-2.png)  
 
-![alt text](image-3.png)  
+![alt text](img/image-3.png)  
 
 ### Task 1.2: Enable versioning and object-level logging on a bucket
 
-![alt text](image-4.png)
+![alt text](img/image-4.png)
 
 
-![alt text](image-5.png)
+![alt text](img/image-5.png)
 
 
-![alt text](image-6.png)
+![alt text](img/image-6.png)
 
 
 ### Task 1.3: Implement the S3 Inventory feature on a bucket
 
-![alt text](image-7.png)
+![alt text](img/image-7.png)
 
 ### Task 1.4: Confirm that versioning works as intended
 
 
-![alt text](image-8.png)
+![alt text](img/image-8.png)
 
-![alt text](image-3.png)  
+![alt text](img/image-3.png)  
 
 ### Task 1.5: Confirm object-level logging and query the access logs by using Athena
 
-![alt text](image-9.png)
+![alt text](img/image-9.png)
 
-![alt text](image-10.png)
+![alt text](img/image-10.png)
 
-![alt text](image-11.png)
+![alt text](img/image-11.png)
 
 ## Phase 2: Securing VPCs
 ### Task 2.1: Review LabVPC and its associated resources  
-![alt text](image-13.png)  
-![alt text](image-12.png)  
-![alt text](image-15.png)  
-![alt text](image-14.png)  
+![alt text](img/image-13.png)  
+![alt text](img/image-12.png)  
+![alt text](img/image-15.png)  
+![alt text](img/image-14.png)  
 
 ### Task 2.2: Create a VPC flow log
-![alt text](image-16.png)
+![alt text](img/image-16.png)
 
 
 ### Task 2.3: Access the WebServer instance from the internet and review VPC flow logs in CloudWatch
 
-![alt text](image-18.png)  
+![alt text](img/image-18.png)  
 
-![alt text](image-19.png)
+![alt text](img/image-19.png)
 
 
 ### Task 2.4: Configure route table and security group settings
 
-![alt text](image-20.png)  
+![alt text](img/image-20.png)  
 
-![alt text](image-22.png)  
+![alt text](img/image-22.png)  
 
-![alt text](image-23.png)  
+![alt text](img/image-23.png)  
 
 
 ### Task 2.5: Secure the WebServerSubnet with a network ACL
 
-![alt text](image-24.png)  
+![alt text](img/image-24.png)  
 
-![alt text](image-25.png)  
+![alt text](img/image-25.png)  
 
 ### Task 2.6: Review NetworkFirewallVPC and its associated resources
 
-![alt text](image-27.png)  
+![alt text](img/image-27.png)  
 
-![alt text](image-28.png)
+![alt text](img/image-28.png)
 
-![alt text](image-29.png)
+![alt text](img/image-29.png)
 
 ### Task 2.7: Create a network firewall
 
-![alt text](image-30.png)  
+![alt text](img/image-30.png)  
 
 ### Task 2.8: Create route tables
 
-![alt text](image-31.png)  
+![alt text](img/image-31.png)  
 
-![alt text](image-32.png)  
+![alt text](img/image-32.png)  
 
-![alt text](image-33.png)  
+![alt text](img/image-33.png)  
 
 ### Task 2.9: Configure logging for the network firewall
 
-![alt text](image-34.png)
+![alt text](img/image-34.png)
 
-![alt text](image-35.png)
+![alt text](img/image-35.png)
 
 ### Task 2.10: Configure the firewall policy and test access
 
-![alt text](image-36.png)
+![alt text](img/image-36.png)
 
-![alt text](image-37.png)
+![alt text](img/image-37.png)
 
-![alt text](image-38.png)  
+![alt text](img/image-38.png)  
 
-![alt text](image-39.png)
+![alt text](img/image-39.png)
 
 ## Phase 3: Securing AWS resources by using AWS KMS
 ### Task 3.1: Create a customer managed key and configure key rotation
 
-![alt text](image-40.png)  
+![alt text](img/image-40.png)  
 
-![alt text](image-41.png)
+![alt text](img/image-41.png)
 
 ### Task 3.2: Update the AWS KMS key policy and analyze an IAM policy
 
-![alt text](image-42.png)  
+![alt text](img/image-42.png)  
 
-![alt text](image-43.png)
+![alt text](img/image-43.png)
 
-![alt text](image-44.png)
+![alt text](img/image-44.png)
 
 ### Task 3.3: Use AWS KMS to encrypt data in Amazon S3
 
-![alt text](image-45.png)  
+![alt text](img/image-45.png)  
 
-![alt text](image-46.png)
+![alt text](img/image-46.png)
 
-![alt text](image-47.png)
+![alt text](img/image-47.png)
 
 ### Task 3.4: Use AWS KMS to encrypt the root volume of an EC2 instance
 
-![alt text](image-48.png)
+![alt text](img/image-48.png)
 
 ### Task 3.5: Use AWS KMS envelope encryption to encrypt data in place
 
-![alt text](image-50.png)
+![alt text](img/image-50.png)
 
-![alt text](image-51.png)
+![alt text](img/image-51.png)
 
-![alt text](image-52.png)  
+![alt text](img/image-52.png)  
 
-![alt text](image-53.png)  
+![alt text](img/image-53.png)  
 
 
 ### Task 3.6: Use AWS KMS to encrypt a Secrets Manager secret
 
-![alt text](image-54.png)
+![alt text](img/image-54.png)
 
 ## Phase 4: Monitoring and logging
 ### Task 4.1: Use CloudTrail to record Amazon S3 API calls
 
-![alt text](image-55.png)
+![alt text](img/image-55.png)
 
-![alt text](image-56.png)
+![alt text](img/image-56.png)
 
-![alt text](image-57.png)
+![alt text](img/image-57.png)
 
-![alt text](image-58.png)
+![alt text](img/image-58.png)
 
 ### Task 4.2: Use CloudWatch Logs to monitor secure logs
 
-![alt text](image-59.png)
+![alt text](img/image-59.png)
 
-![alt text](image-61.png)
+![alt text](img/image-61.png)
 
-![alt text](image-62.png)
+![alt text](img/image-62.png)
 
-![alt text](image-63.png)
+![alt text](img/image-63.png)
 
-![alt text](image-64.png)
+![alt text](img/image-64.png)
 
 
 ### Task 4.3: Create a CloudWatch alarm to send notifications for security incidents
 
-![alt text](image-66.png)
+![alt text](img/image-66.png)
 
-![alt text](image-65.png)
+![alt text](img/image-65.png)
 
-![alt text](image-67.png)
+![alt text](img/image-67.png)
 
-![alt text](image-68.png)
+![alt text](img/image-68.png)
 
-![alt text](image-69.png)
+![alt text](img/image-69.png)
 
 ### Task 4.4: Configure AWS Config to assess security settings and remediate the configuration of AWS resources
 
-![alt text](image-71.png)
+![alt text](img/image-71.png)
 
-![alt text](image-72.png)
+![alt text](img/image-72.png)
 
-![alt text](image-73.png)
+![alt text](img/image-73.png)
 
-![alt text](image-75.png)
+![alt text](img/image-75.png)
 
-![alt text](image-76.png)
+![alt text](img/image-76.png)
